@@ -1,6 +1,7 @@
-import {BrowserRouter as Link} from "react-router-dom"
+import {BrowserRouter as Link} from "react-router-dom";
 import Registration from "./components/Registration";
-import './App.css'
+import Login from "./components/Login";
+import './App.css';
 
 function App() {
 
@@ -42,12 +43,10 @@ function App() {
 
   return (
     <div className="App">
-
-      <Sidebar />
-      <Main />
-
+        <Sidebar />
+        <Main />
         <Registration />
-
+        <Login />
     </div>
   );
 }
