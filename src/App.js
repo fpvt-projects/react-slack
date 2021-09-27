@@ -1,5 +1,7 @@
 import {BrowserRouter as Link} from "react-router-dom"
-import './App.css';
+import Registration from "./components/Registration";
+import './App.css'
+
 function App() {
 
   const Sidebar = () => {
@@ -40,8 +42,12 @@ function App() {
 
   return (
     <div className="App">
+
       <Sidebar />
       <Main />
+
+        <Registration />
+
     </div>
   );
 }
